@@ -1,1 +1,1 @@
-# Final project
+# Information Theory based UI Analysis
