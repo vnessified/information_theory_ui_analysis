@@ -10,7 +10,7 @@ In this context, information theory concepts such as entropy measures the uncert
 
 ### Data 
 
-* **Dataset**: The data sourced from the [Rico Mobile App Dataset](http://interactionmining.org/rico) comprises over 72,000 unique Android app UIs mined from the Android app store.
+* **Dataset**: The data sourced from the [Rico Mobile App Dataset](http://interactionmining.org/rico) comprises over 72,000 unique UI screenshots mined from the Android app store.
 Below is a sample of a few of these UI images:
 
 ![sample UIs](readme_imgs/sample_uis.png)
