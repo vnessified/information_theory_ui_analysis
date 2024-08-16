@@ -42,7 +42,7 @@ The analysis revealed several key insights:
 
 ## Conclusion and Future Work
 
-This project demonstrated that entropy and information gain could serve as valuable metrics for analyzing UI designs. However, further research is needed to refine these methods and explore their applications in other domains, such as web design or gaming interfaces. Future work might include:
+This project demonstrated that entropy and information gain may serve as valuable metrics for analyzing UI designs. However, further research is needed to refine these methods and explore their applications in other domains, such as web design or gaming interfaces. Future work might include:
 
 * **Enhanced Feature Extraction**: Incorporating more advanced image processing techniques, such as texture analysis or edge detection.
 * **Machine Learning Integration**: Applying machine learning models to predict app categories or ratings based on entropy and other extracted features.
