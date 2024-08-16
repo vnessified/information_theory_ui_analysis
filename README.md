@@ -15,7 +15,7 @@ Below is a sample of the data:
 
 ![sample UIs](readme_imgs/sample_uis.png)
 
-* **App Categories**: These UIs span across 28 different categories such as Entertainment, Shopping, Social, Lifestyle, Health & Fitness, and many more.
+* **App Categories**: These UIs span across 28 different categories such as Entertainment, Shopping, Social, Lifestyle, Health & Fitness, and many more:
 
 ![app categories](readme_imgs/app_cat.png)
 
