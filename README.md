@@ -19,44 +19,26 @@ Below is a sample of the data:
 
 
 
-## Analysis 
+## Metrics Analyzed
 
-* **Histograms**: Analyzed the pixel intensity distributions of the UI images by generating histograms.
-* **Entropy**: Calculated the entropy of both grayscale and color images to measure the 'busyness' of the images, which is an indicator of the amount of information present.
-* **KL Divergence**: Applied Kullback-Leibler divergence to compare the differences in distributions between grayscale and color images.
+* **Entropy**: Entropy measures the complexity or "busyness" of an image, providing insight into how much visual information a UI conveys. High entropy suggests a more information-dense, potentially cluttered design, while low entropy indicates simplicity and clarity. By analyzing entropy, we can assess whether a UI's visual complexity aligns with its intended purpose, category, or target audience, which is crucial for effective UX design and writing.
+![entropy](readme_imgs/ent.png)
+* **KL Divergence**: KL Divergence quantifies the difference between two distributions—in this case, the pixel intensity distributions of different UI images or color channels. By applying KL Divergence, the project assesses how distinct one UI is from another, which can help in refining design elements to stand out in a crowded app market or to align more closely with user expectations.
+* **Information Gain**: Information Gain measures the increase in information when transitioning from grayscale to color images, reflecting the added value of color in visual communication. This metric helps UX designers and writers understand how color enhances or detracts from the clarity and effectiveness of a UI's visual and written content.
+![histograms](readme_imgs/histos.png)
 
-### Goals
-
-The primary objective of this project is to investigate whether entropy is a good indicator of app categories and app ratings. Specifically, it looks at how well entropy can predict the type of app and its user rating based on its UI design.
-
-## Code Structure
-
-### Data Loading and Preprocessing
-
-* **Image Resizing**: To ensure consistent analysis, all images were resized to a manageable dimension before entropy calculations.
-* **Data Merging**: The project involved merging various datasets, including app details and UI details, to facilitate comprehensive analysis.
-
-### Entropy and Histogram Calculations
-
-* **Grayscale and Color Histograms**: Generated histograms for both grayscale and color images to understand pixel intensity distributions.
-* **Entropy Calculation**: Computed the entropy for each image based on its histogram data, with separate calculations for grayscale and color images.
-
-### Information Gain
-
-* **Information Gain Calculation**: Measured the difference in entropy when moving from grayscale to color images, providing insights into how much additional information is captured by color.
-
-### Exploratory Data Analysis (EDA)
-
-* **Entropy Distributions**: Analyzed the distribution of entropy values across different app categories and ratings to draw correlations.
-* **Visualization**: Used various plots, such as histograms and bar charts, to visualize the relationships between entropy, app categories, and ratings.
 
 ## Results
 
 The analysis revealed several key insights:
 
-* **Entropy as a Proxy**: Entropy showed varying degrees of correlation with app categories and ratings. Categories like Productivity and Entertainment displayed distinct entropy patterns.
-* **Information Gain**: The transition from grayscale to color images provided additional information, which was particularly notable in certain app categories.
-* **App Ratings**: Lower-rated apps tended to have lower entropy, suggesting simpler or less busy UIs, while higher-rated apps had more varied entropy values.
+* **Entropy as a UX Indicator**: Entropy showed varying degrees of correlation with app categories and ratings. For example, productivity apps with low entropy often had clearer, more focused UIs, while entertainment apps with higher entropy provided richer, more engaging visual experiences.
+* **Information Gain in Content Design**: The transition from grayscale to color provided significant additional information, particularly in categories where visual appeal and differentiation are crucial, such as gaming or social media.
+* **KL Divergence for Unique UI Design**: KL Divergence helped identify UIs that stood out from others in their category, offering insights into how unique design elements can attract user attention and improve engagement.
+
+![entropy_category](readme_imgs/ent_cat.png)
+
+![entropy_rating](readme_imgs/ent_rating.png)
 
 ## Conclusion and Future Work
 
