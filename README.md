@@ -6,9 +6,7 @@ This project applies principles of information theory to analyze the design and 
 In this context, information theory concepts such as entropy measures the uncertainty or complexity within a UI, offering insights into how much information a user must process. By examining entropy and related metrics, this project explores whether the 'busyness' or simplicity of a UI can serve as indicators of app categories and user ratings. By understanding the informational structures within these user interfaces, we can identify patterns, providing insights that could influence and improve overall user experience.
 
 
-## Project Overview
-
-### Data 
+## Data 
 
 * **Dataset**: The data sourced from the [Rico Mobile App Dataset](http://interactionmining.org/rico) comprises over 72,000 unique UI screenshots mined from the Android app store.
 Below is a sample of the data:
@@ -21,7 +19,7 @@ Below is a sample of the data:
 
 
 
-### Analysis Techniques
+## Analysis 
 
 * **Histograms**: Analyzed the pixel intensity distributions of the UI images by generating histograms.
 * **Entropy**: Calculated the entropy of both grayscale and color images to measure the 'busyness' of the images, which is an indicator of the amount of information present.
