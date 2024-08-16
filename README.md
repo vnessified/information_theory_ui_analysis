@@ -1,15 +1,22 @@
-# Information Theory-Based UI Analysis
 
-## Overview
+## Introduction
 
-This project explores the use of entropy, histograms, and KL divergence to analyze over 72,000 unique UI screens from Android apps. The goal is to determine if entropy can serve as a proxy for app categories and app ratings. The dataset is sourced from the "Painter by Numbers" competition on Kaggle, which contains various screenshots of Android UIs across 28 different categories.
+This project applies principles of information theory to analyze the design and content of over 72,000 unique Android app user interfaces. Information theory, a mathematical framework traditionally used to quantify the transmission of data, provides an interesting framework for analyzing content and design. 
 
-## Key Components
+In this context, information theory concepts such as entropy measures the uncertainty or complexity within a UI, offering insights into how much information a user must process. By examining entropy and related metrics, this project explores whether the 'busyness' or simplicity of a UI can serve as indicators of app categories and user ratings. By understanding the informational structures within user interfaces, we can identify patterns, providing insights that could influence and improve overall user experience.
 
-### Data Overview
 
-* **Dataset**: The dataset comprises over 72k unique free app UI screens mined from the Android app store.
+## Project Overview
+
+### Data 
+
+* **Dataset**: The data sourced from the [Rico Mobile App Dataset](http://interactionmining.org/rico) comprises over 72k unique free app UI screens mined from the Android app store.
+Below is a sample of a few of these UI images:
+
+![sample UIs](readme_imgs/sample_uis.png)
+
 * **App Categories**: These UIs span across 28 different categories such as Entertainment, Shopping, Social, Lifestyle, Health & Fitness, and many more.
+
 
 ### Analysis Techniques
 
