@@ -1,4 +1,4 @@
-
+# Information Theory-Based UI Analysis
 ## Introduction
 
 This project applies principles of information theory to analyze the design and content of over 72,000 unique Android app user interfaces. Information theory, a mathematical framework traditionally used to quantify the transmission of data, provides an interesting framework for analyzing content and design. 
